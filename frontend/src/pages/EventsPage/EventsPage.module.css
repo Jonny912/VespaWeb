@@ -1,0 +1,18 @@
+.events_section{
+    padding: 24px 0px;
+    min-height: 80vh;
+}
+
+.events_title{
+    margin-bottom: 32px;
+}
+
+.events_section_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader{
+    font-size: 48px;
+}

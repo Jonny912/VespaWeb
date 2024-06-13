@@ -1,0 +1,12 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.notif_text{
+    font-size: 20px;
+    width: 380px;
+    text-align: center;
+}

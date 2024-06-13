@@ -1,0 +1,18 @@
+.btn{
+    background-color: rgb(0, 108, 255);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:disabled{
+    background-color: gray;
+    opacity: 0.3;
+}
+.btn:disabled:hover{
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.btn:hover{
+    background-color:  rgb(0, 91, 217);;
+}

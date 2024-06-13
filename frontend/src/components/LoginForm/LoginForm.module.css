@@ -1,0 +1,69 @@
+.login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 24px;
+    width: 420px;
+    /* border: 1px solid rgba(0, 0, 0, 0.203); */
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.203);
+    border-radius: 8px;
+
+}
+
+.inputs_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 84px;
+}
+
+.label {
+    margin-left: 8px;
+}
+
+.input{
+    height: 44px;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.173);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.input:focus-within{
+    outline: none;
+}
+
+.recovery_link {
+    width: 166px;
+    color: rgb(0, 108, 255);
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(0, 108, 255);
+}
+
+.validation_error{
+    color: rgb(233, 2, 2);
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+
+.registr_link_wrapper{
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.reistr_link{
+  
+    color: rgb(0, 108, 255);
+    display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(0, 108, 255);
+}

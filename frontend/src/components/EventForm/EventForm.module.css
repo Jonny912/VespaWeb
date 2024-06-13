@@ -1,0 +1,78 @@
+.event_form{
+    padding: 24px;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.inputs_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.label {
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.input{
+    height: 40px;
+    padding: 8px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.select {
+    appearance: none;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 8px; 
+    font-size: 20px;
+}
+
+.select:focus-within{
+outline: none;
+}
+
+.date{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid  rgb(160, 160, 160);
+    font-size: 20px;
+    height: 40px;
+    padding: 8px;
+}
+
+.input_wrapper_date{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 60px;  
+}
+
+.date:focus-within{
+    outline: none;
+}
+
+.input:focus-within{
+    outline: none;
+}
+
+.textarea{
+    resize: none;
+    height: 104px;
+    border-radius: 8px;
+    border: 1px solid  rgb(160, 160, 160);
+    padding: 8px;
+    font-size: 20px;
+}

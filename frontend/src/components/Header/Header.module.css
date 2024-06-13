@@ -1,0 +1,67 @@
+.header{
+    padding: 24px 0px;
+    border-bottom: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_link{
+    font-size: 20px;
+    color: rgb(0, 108, 255);
+}
+
+.nav{
+   display: flex;
+   /* gap: 144px; */
+   justify-content: space-between;
+
+
+}
+
+.auth_nav{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+  
+}
+
+.auth_nav_link{
+    color: rgb(0, 108, 255)
+}
+
+.link {
+    color:  rgb(0, 108, 255);
+}
+
+.active {
+    color:  rgb(21, 22, 23);
+}
+
+.main_nav{
+    display: flex;
+    gap: 16px;
+}
+
+.user_nav{
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
+    width: 600px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 12px;
+    width: 240px;
+    justify-content: flex-end;
+}
+
+.username{
+    font-weight: 700;
+}
+
+.empty_wrapper{
+    width: 600px;
+}
